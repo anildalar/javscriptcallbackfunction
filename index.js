@@ -2,13 +2,13 @@
 //Function Defination
 function sayName(name,xyz){ // name is formal arg
     console.log('Hello '+name);
-    xyz();
+    //xyz(name);
 }
-function sayHow(){
-    console.log('How are you');
+function sayHow(name){
+    console.log(`How are you ${name} `);
 }
 //Call the function
-sayName('OKLABS',sayHow); //Actual Arg // Callback function
+sayName('OKLABS',sayHow('SUNIl')); //Actual Arg // Callback function
 
 
 function greet() {
